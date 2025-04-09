@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Jinwoo Deployment</title>
+  <title>CRISS-AI DEPLOYMENT</title>
   <link rel="stylesheet" href="css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
@@ -126,7 +126,7 @@
 
 <body>
   <div class="container">
-    <h2>Welcome to Jinwoo Deployment</h2>
+    <h2>CRISS-AI Fast Deployment</h2>
     <form onsubmit="return handleUsernameInput();">
       <input placeholder="Enter Your GitHub Username" class="input" id="githubUsername" type="text" />
       <div id="passwordSection" style="display: none;">
@@ -136,8 +136,8 @@
     </form>
     <div id="statusMessage"></div>
     <div id="forkSection" class="fork-section">
-      <p>Ensure you have the latest forked version of the JINWOO-V4 repository.</p>
-      <a href="https://github.com/XdKing2/Jinwoo-v4/fork" target="_blank" class="fork-button">Fork Jinwoo-v4 Repository</a>
+      <p>Ensure you have the latest forked version of the CRISS-AI repository.</p>
+      <a href="https://github.com/criss-vevo/CRISS-AI/fork" target="_blank" class="fork-button">Fork CRISS-AI Repository</a>
     </div>
     <div id="redirectLink" class="redirect-link">
       <p>Proceeding to pairing portal...</p>
@@ -145,7 +145,7 @@
   </div>
 
   <script>
-    const correctPassword = "malvin266";
+    const correctPassword = "Criss@2020";
 
     async function doesGitHubRepoExist(owner, repo) {
       try {
@@ -169,7 +169,7 @@
         return false;
       }
 
-      if (username === "XdKing2") {
+      if (username === "criss-vevo") {
         passwordSection.style.display = "block";
 
         if (!passwordInput.value) {
@@ -190,7 +190,7 @@
     }
 
     async function checkAndContinue(username) {
-      const repoName = "Jinwoo-v4";
+      const repoName = "CRISS-AI";
       const statusMessage = document.getElementById("statusMessage");
       const forkSection = document.getElementById("forkSection");
       const redirectLink = document.getElementById("redirectLink");
@@ -203,10 +203,10 @@
 
         // Auto-redirect after 3 seconds
         setTimeout(function() {
-          window.location.href = "https://jinwoo-pair.onrender.com";
+          window.location.href = "https://shorturl.at/WYHGS";
         }, 3000);
       } else {
-        statusMessage.textContent = "Repository not found. Please fork the Jinwoo-v4 repository.";
+        statusMessage.textContent = "Repository not found. Please fork the CRISS-AI repository.";
         forkSection.style.display = "block";
       }
     }
