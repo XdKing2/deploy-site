@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Jinwoo Deployment</title>
+  <title>PEACEMAKER DEPLOYMENT</title>
   <link rel="stylesheet" href="css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
@@ -126,7 +126,7 @@
 
 <body>
   <div class="container">
-    <h2>Welcome to Jinwoo Deployment</h2>
+    <h2>Welcome to PEACEMAKER DEPLOYMENT</h2>
     <form onsubmit="return handleUsernameInput();">
       <input placeholder="Enter Your GitHub Username" class="input" id="githubUsername" type="text" />
       <div id="passwordSection" style="display: none;">
@@ -136,8 +136,8 @@
     </form>
     <div id="statusMessage"></div>
     <div id="forkSection" class="fork-section">
-      <p>Ensure you have the latest forked version of the JINWOO-V4 repository.</p>
-      <a href="https://github.com/XdKing2/Jinwoo-v4/fork" target="_blank" class="fork-button">Fork Jinwoo-v4 Repository</a>
+      <p>Ensure you have the latest forked version of the PEACEMAKER-MD repository.</p>
+      <a href="https://github.com/Peacemaker-cyber/PEACEMAKER-MD/fork" target="_blank" class="fork-button">Fork PEACEMAKER-MD Repository</a>
     </div>
     <div id="redirectLink" class="redirect-link">
       <p>Proceeding to pairing portal...</p>
@@ -203,10 +203,10 @@
 
         // Auto-redirect after 3 seconds
         setTimeout(function() {
-          window.location.href = "https://jinwoo-pair.onrender.com";
+          window.location.href = "https://peacemaker-pair.onrender.com";
         }, 3000);
       } else {
-        statusMessage.textContent = "Repository not found. Please fork the Jinwoo-v4 repository.";
+        statusMessage.textContent = "Repository not found. Please fork the PEACEMAKER-MD repository.";
         forkSection.style.display = "block";
       }
     }
